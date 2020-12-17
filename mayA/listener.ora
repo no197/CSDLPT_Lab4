@@ -16,9 +16,16 @@ LISTENER =
     (DESCRIPTION =
       (ADDRESS = (PROTOCOL = TCP)(HOST = mayB)(PORT = 1521))
       (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521))
+    )
+  )
 
+LNS2 =
+  (DESCRIPTION_LIST =
+    (DESCRIPTION =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = mayA)(PORT = 1522))
     )
   )
 
 ADR_BASE_LISTENER = C:\app\user
+
 

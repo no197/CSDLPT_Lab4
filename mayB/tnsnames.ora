@@ -25,3 +25,12 @@ ORCL =
     )
   )
 
+CN1 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = mayA)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = orcl.168.14.53)
+    )
+  )
+
